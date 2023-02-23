@@ -8,33 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-        <div class="screen">
-            <p class="display">486</p>
-        </div>
-        <div class="body">
-            <div class="button-container">
-                <button class="button" onclick="onclick_number(7)">7</button>
-                <button class="button" onclick="onclick_number(8)">8</button>
-                <button class="button" onclick="onclick_number(9)">9</button>
-                <button class="button" onclick="onclick_op('/')">/</button>
-                <button class="button" onclick="onclick_number(4)">4</button>
-                <button class="button" onclick="onclick_number(5)">5</button>
-                <button class="button" onclick="onclick_number(6)">6</button>
-                <button class="button" onclick="onclick_op('x')">x</button>
-                <button class="button" onclick="onclick_number(1)">1</button>
-                <button class="button" onclick="onclick_number(2)">2</button>
-                <button class="button" onclick="onclick_number(3)">3</button>
-                <button class="button" onclick="onclick_op('-')">-</button>
-                <button class="button" onclick="onclick_number(0)">0</button>
-                <button class="button" onclick="onclick_number('.')">.</button>
-                <button class="button" onclick="onclick_clear()">C</button>
-                <button class="button" onclick="onclick_op('+')">+</button>
-                <button class="button" id="equals" onclick="onclick_equals()">=</button>
+
+    <header>
+        <h1>Calculator App</h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <div class="screen">
+                <p class="display">486</p>
             </div>
-            
+            <div class="body">
+                <div class="button-container">
+                    <button class="button" onclick="onclick_number(7)">7</button>
+                    <button class="button" onclick="onclick_number(8)">8</button>
+                    <button class="button" onclick="onclick_number(9)">9</button>
+                    <button class="button" onclick="onclick_op('/')">/</button>
+                    <button class="button" onclick="onclick_number(4)">4</button>
+                    <button class="button" onclick="onclick_number(5)">5</button>
+                    <button class="button" onclick="onclick_number(6)">6</button>
+                    <button class="button" onclick="onclick_op('x')">x</button>
+                    <button class="button" onclick="onclick_number(1)">1</button>
+                    <button class="button" onclick="onclick_number(2)">2</button>
+                    <button class="button" onclick="onclick_number(3)">3</button>
+                    <button class="button" onclick="onclick_op('-')">-</button>
+                    <button class="button" onclick="onclick_number(0)">0</button>
+                    <button class="button" onclick="onclick_number('.')">.</button>
+                    <button class="button" onclick="onclick_clear()">C</button>
+                    <button class="button" onclick="onclick_op('+')">+</button>
+                    <button class="button" id="equals" onclick="onclick_equals()">=</button>
+                </div>
+                
+            </div>
         </div>
-    </div>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
